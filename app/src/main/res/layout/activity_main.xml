@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/plain">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Train Food Delivery app"
+        android:textSize="24sp"
+        android:textColor="@color/blue"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold"/>
+
+    <!-- User Login Button -->
+    <Button
+        android:id="@+id/userLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in as User"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"
+        android:onClick="onClick"
+        android:backgroundTint="@color/colorPrimary"/>
+
+
+    <!-- Restaurant Login Button -->
+    <Button
+        android:id="@+id/restaurantLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:padding="16dp"
+        android:text="Sign in as restaurant"
+        android:backgroundTint="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/deliverymanLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:padding="16dp"
+        android:text="Sign in as deliveryman"
+        android:backgroundTint="@color/colorPrimary"/>
+
+</LinearLayout>
